@@ -1,3 +1,15 @@
+# 테마 변경해서 배포하기
+
+변경 끝내고 zip script 실행해서 `dist/casper-deer.zip` 파일을 고스트에 올리면 테마를 적용할 수 있다.
+([https://deer.ghost.io/ghost/#/settings/design/change-theme](https://deer.ghost.io/ghost/#/settings/design/change-theme)에서 'Upload Theme' 버튼 클릭)
+
+테마를 적용하면 기존의 셋팅들(다크 모드 및 글씨체 설정)이 모두 사라지므로 다시 셋팅해줘야 한다. 이 문제는 고스트에서 해결해줘야함.
+
+```
+$ yarn install
+$ yarn zip 
+```
+
 # Casper
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper! If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
