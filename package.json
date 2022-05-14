@@ -1,6 +1,6 @@
 {
-    "name": "casper",
-    "description": "A clean, minimal default theme for the Ghost publishing platform",
+    "name": "casper-deer",
+    "description": "Ghost 기본 테마인 Casper를 디어에 맞게 커스텀",
     "demo": "https://demo.ghost.io",
     "version": "4.7.5",
     "engines": {
